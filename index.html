@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Revi Daniel Prasetya</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+            background-color: #f7f9fb;
+        }
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        header .menu a:hover {
+            color: #16a085;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section#hero {
+            background: linear-gradient(to bottom, #34495e, #2c3e50);
+            color: white;
+            padding: 100px 20px;
+        }
+        section#hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        section#hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        section#hero .button {
+            padding: 15px 30px;
+            background-color: #16a085;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+        section#hero .button:hover {
+            background-color: #1abc9c;
+        }
+        section#tentang {
+            background-color: #ecf0f1;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .content-box {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 30px auto;
+            text-align: left;
+        }
+        .content-box div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .content-box div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .content-box div h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        section#kontak {
+            background-color: #16a085;
+            color: white;
+            padding-bottom: 50px;
+        }
+        section#kontak form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        section#kontak input, section#kontak textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        section#kontak button {
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        section#kontak button:hover {
+            background-color: #16a085;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="#" style="color: white; text-decoration: none; font-size: 1.5rem;">PORTFOLIO</a>
+            </div>
+            <nav class="menu">
+                <a href="#tentang">Tentang</a>
+                <a href="#layanan">Skill</a>
+                <a href="#portofolio">Proyek</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </header>
+        <section id="hero">
+            <h1>Halo, Saya Revi Daniel Prasetya</h1>
+            <p>Mahasiswa Sistem Informasi dengan fokus pada pengembangan teknologi, desain, dan layanan.</p>
+            <a href="#layanan" class="button">Lihat Skill Saya</a>
+        </section>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah individu yang bersemangat belajar, adaptif, dan fokus pada solusi inovatif menggunakan teknologi. Tujuan saya adalah menciptakan dampak positif melalui setiap proyek yang saya kerjakan.</p>
+        </section>
+        <section id="layanan">
+            <h2>Keahlian Saya</h2>
+            <div class="content-box">
+                <div>
+                    <h3>Microsoft Office</h3>
+                    <p>Penggunaan Office untuk laporan, presentasi, dan data analisis yang efektif.</p>
+                </div>
+                <div>
+                    <h3>Adobe Premiere</h3>
+                    <p>Pengeditan video profesional untuk kebutuhan promosi atau dokumentasi.</p>
+                </div>
+                <div>
+                    <h3>CorelDraw</h3>
+                    <p>Desain visual kreatif untuk branding, poster, atau logo.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portofolio">
+            <h2>Proyek Saya</h2>
+            <p>Beberapa hasil karya yang telah saya selesaikan:</p>
+            <div class="content-box">
+                <div>
+                    <h3>🎥 Video Edukasi</h3>
+                    <p>Membuat video animasi bertema "Kontribusi Edukasi Melalui Navigasi Teknologi", menggunakan AI untuk visual kreatif.</p>
+                </div>
+                <div>
+                    <h3>🎬 Film Pendek</h3>
+                    <p>Berperan sebagai koordinator survei dalam proyek film pendek untuk tugas akhir, yang memperoleh skor 90.</p>
+                </div>
+                <div>
+                    <h3>📌 Poster Promosi</h3>
+                    <p>Merancang poster untuk komunitas lokal, menggabungkan elemen desain kreatif dengan pesan yang kuat.</p>
+                </div>
+                <div>
+                    <h3>📹 Konten Media Sosial</h3>
+                    <p>Produksi video promosi untuk merek lokal, meningkatkan daya tarik visual di platform digital.</p>
+                </div>
+            </div>
+        </section>
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2024 Revi Daniel Prasetya. Semua Hak Dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>

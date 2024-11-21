@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Revi Daniel Prasetya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section#hero {
+            background-color: #34495e;
+            color: white;
+        }
+        section#layanan, section#portofolio {
+            background-color: #ecf0f1;
+        }
+        section#kontak {
+            background-color: #16a085;
+            color: white;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .content-box {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .content-box div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #16a085;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <a href="#" style="color: white; text-decoration: none; font-size: 1.5rem;">REVI PORTFOLIO</a>
+            </div>
+            <nav class="menu">
+                <a href="#tentang">Tentang Saya</a>
+                <a href="#layanan">Skill</a>
+                <a href="#portofolio">Proyek</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Halo, Saya Revi Daniel Prasetya</h1>
+            <p>Mahasiswa Sistem Informasi dengan minat pada teknologi, desain, dan pengembangan layanan.</p>
+            <a href="#layanan" class="button">Lihat Skill Saya</a>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah individu yang bersemangat belajar, adaptif, dan fokus pada solusi inovatif menggunakan teknologi. 
+               Tujuan saya adalah menciptakan dampak positif melalui setiap proyek yang saya kerjakan.</p>
+        </section>
+
+        <!-- Keahlian -->
+        <section id="layanan">
+            <h2>Keahlian Saya</h2>
+            <div class="content-box">
+                <div>
+                    <h3>Pengembangan Web</h3>
+                    <p>Membangun situs modern yang responsif untuk kebutuhan digital Anda.</p>
+                </div>
+                <div>
+                    <h3>Desain Grafis</h3>
+                    <p>Menciptakan visual menarik untuk promosi, branding, atau presentasi.</p>
+                </div>
+                <div>
+                    <h3>SEO</h3>
+                    <p>Meningkatkan visibilitas situs web di mesin pencari untuk menjangkau lebih banyak audiens.</p>
+                </div>
+                <div>
+                    <h3>Komunikasi</h3>
+                    <p>Berpengalaman dalam berkolaborasi secara efektif di berbagai tim kerja.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portofolio -->
+        <section id="portofolio">
+            <h2>Proyek Saya</h2>
+            <p>Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+            <div class="content-box">
+                <div>
+                    <h3>Website Portfolio</h3>
+                    <p>Membangun website ini untuk menampilkan kemampuan desain dan pengembangan saya.</p>
+                </div>
+                <div>
+                    <h3>Poster Acara</h3>
+                    <p>Merancang poster digital untuk promosi acara komunitas lokal.</p>
+                </div>
+                <div>
+                    <h3>Kampanye Media Sosial</h3>
+                    <p>Mengelola konten digital untuk meningkatkan engagement kampanye sosial.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <p>Siap bekerja sama untuk menciptakan sesuatu yang luar biasa. Hubungi saya melalui email:</p>
+            <p>Email: <a href="mailto:revidanielprasetya@gmail.com" style="color: white; text-decoration: underline;">revidanielprasetya@gmail.com</a></p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Revi Daniel Prasetya. Semua Hak Dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>
